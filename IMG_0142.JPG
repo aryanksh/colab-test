@@ -1,0 +1,144 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# github test"
+      ],
+      "metadata": {
+        "id": "ydRgNa_egst3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 1\n",
+        "y = 2"
+      ],
+      "metadata": {
+        "id": "2aUDCu1Qg279"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x+y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "apxq6pRVg6YU",
+        "outputId": "15195aa2-de8a-447c-d0ee-9c89efd8cf3e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git clone https://github.com/aryanksh/colab-test"
+      ],
+      "metadata": {
+        "id": "Ve-U6qjIg65R",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e0e049eb-ed92-45f6-e4d8-e8e1aa65cf80"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'colab-test'...\n",
+            "remote: Enumerating objects: 3, done.\u001b[K\n",
+            "remote: Counting objects: 100% (3/3), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (2/2), done.\u001b[K\n",
+            "remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\u001b[K\n",
+            "Receiving objects: 100% (3/3), done.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "y = 100\n",
+        "x+y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "st2Qmwg9i1v2",
+        "outputId": "5de31ce6-a87e-4cab-a85b-d63d13d40fa3"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "105"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c9T14fUWi7ox",
+        "outputId": "81ac8bde-e9e0-4a0a-deb4-f81b16ee2690"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fatal: not a git repository (or any of the parent directories): .git\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
